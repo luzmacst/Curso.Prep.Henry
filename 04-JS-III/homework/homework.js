@@ -264,6 +264,7 @@ function continueStatement(numero) {
     } return nuevoarray2;
   }
 
+  
 
 // No modificar nada debajo de esta línea
 // --------------------------------
