@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+}
+
+.img {
+    max-width: 400px;
+    height: auto;
+}
+
+.thirdDiv{
+    max-width: 600px;
+    height: 500px;
+}

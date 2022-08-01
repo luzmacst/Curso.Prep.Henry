@@ -73,12 +73,12 @@ function agregarStringInvertida() {
   class Persona {
     constructor(nombre,apellido,edad,domicilio) {
       // Crea el constructor:
-      this.nombre= nombre,
-      this.apellido=apellido,
-      this.edad=edad,
+      this.nombre= nombre;
+      this.apellido=apellido;
+      this.edad=edad;
       this.domicilio=domicilio;
     }
-    detalle (){
+    detalle (){               // si esta dentro de la clase se va a ejecutar muchas veces, es mejor crear un prototipo para evitar eso
             var objeto ={
               Nombre:this.nombre ,
               Apellido: this.apellido,
